@@ -1,0 +1,139 @@
+body {
+  width: 90%;
+  margin: 0 5%;
+}
+main {
+  height: 100vh;
+  width: 100%;
+}
+
+.add {
+  width: 25px;
+  height: 25px;
+}
+
+/* ---------- Message ----------------------------------------------------*/
+
+.erreur,
+.message {
+  font-size: 1em;
+  display: block;
+}
+.erreur ul {
+  list-style: none square;
+}
+
+.erreur {
+  background-color: rgb(237, 210, 229);
+  color: rgb(203, 28, 128);
+}
+.message {
+  background-color: rgb(99, 184, 255);
+  color: rgb(0, 0, 205);
+}
+
+/* ---------- Entete ----------------------------------------------------*/
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 200px;
+}
+
+#menu li {
+  list-style-type: none;
+  list-style-image: none;
+  float: left;
+  text-align: center;
+  width: 250px;
+  border: 1px solid #600;
+  margin-right: 1px;
+  color: #fff;
+  background: #ccff11;
+}
+
+#menu li a,
+#categories li a,
+#consoles li a {
+  text-decoration: none;
+}
+
+/* ---------- Jeux ----------------------------------------------------*/
+
+#visite {
+  display: flex;
+}
+
+#visite aside ul {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+#visite aside ul li {
+  list-style: none;
+  border: 1px solid #600;
+  width: 100px;
+  text-align: center;
+  background: #ccff11;
+}
+
+#visite section {
+  display: flex;
+  flex-direction: row;
+}
+
+#visite section article {
+  margin: 5px;
+  padding: 5px;
+}
+
+#visite section article > img {
+  height: 300px;
+  width: 300px;
+}
+
+.jeux div {
+  display: flex;
+  flex-direction: row;
+}
+
+.jeux div > article {
+  margin: 10px;
+  width: 25%;
+}
+.jeux div > article > img {
+  height: 300px;
+  width: 300px;
+}
+.compte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info div {
+  margin: 50px;
+}
+/* ---------- Formulaire ----------------------------------------------------*/
+
+.reg_form {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
